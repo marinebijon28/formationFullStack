@@ -2,19 +2,22 @@ const express = require("express")
 const https = require("https")
 const bodyParser = require("body-parser")
 const ejs = require("ejs")
-
-
 const app = express()
+const fruitModule = require(__dirname + "/fruit.js")
 
 
 app.use(bodyParser.urlencoded({extended : false}))
 app.set("view engine", "ejs")
 app.use(express.static("assets"))
 
-app.get("/", function(req, res) {
-    const tabFruit = ["citron", "pasteque", "pomme", "banane"]
-    const fruit = tabFruit[Math.floor(Math.random() * 4)]
-    res.render('fruit', {fruit : fruit})
+app.get("/fruit", function(req, res) {
+    const fruit = fruitModule.getFruit()
+    res.send(fruit)
+});
+
+app.get("/fruitArray", function(req, res) {
+    const fruitArray = fruitModule.getFruitArray()
+    res.render('fruitArray', {fruitArray : fruitArray})
 });
 
 app.get("/weather", function(req, res) {

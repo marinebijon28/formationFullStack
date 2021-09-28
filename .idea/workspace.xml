@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84112bfc-2064-4dde-80e6-fb1dbcc739bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/section25/views/fruitArray.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section21/calculCarrelage.js" beforeDir="false" afterPath="$PROJECT_DIR$/section21/calculCarrelage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section24/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/section24/weather.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section24/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/section24/weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section25/views/addCity.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/section25/views/addCity.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section25/views/fruit.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section25/views/weather.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/section25/views/weather.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section25/weatherEJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/section25/weatherEJS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <workItem from="1631696978077" duration="17000" />
       <workItem from="1631697017364" duration="2000" />
       <workItem from="1632473914457" duration="7665000" />
-      <workItem from="1632825877241" duration="3217000" />
+      <workItem from="1632825877241" duration="4461000" />
     </task>
     <servers />
   </component>
