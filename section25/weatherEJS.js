@@ -12,7 +12,7 @@ app.use(express.static("assets"))
 
 app.get("/fruit", function(req, res) {
     const fruit = fruitModule.getFruit()
-    res.send(fruit)
+    res.render('fruit', {fruit : fruit})
 });
 
 app.get("/fruitArray", function(req, res) {
